@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bf0b0d0947.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I am <span>Ritesh Maurya</span>  <br>from prayagraj</h1>
+
+            </div>
+        </div>
+    </div>
+  <!---------------about me--------------->
+<div  id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/image2.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Hi, my name is Ritesh Maurya.
+I am currently pursuing MCA and I have a strong interest in web development and UI/UX design.
+I have knowledge of HTML, CSS, JavaScript, React, Java, and MySQL. I enjoy building responsive and user-friendly websites, and I have worked on projects like portfolio websites and form integration with Google Sheets.
+I am continuously improving my skills by learning new technologies and working on real-world projects. I am a quick learner and highly motivated to grow in the field of frontend development.
+My goal is to become a skilled Full Stack developer and contribute effectively to an organization.
+<br>
+Thank you.</p>
+                
+                
+                <div class="tab-title"> 
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI?UX</span><br>designing web/app interfaces</li>
+                        <li><span>Web Development</span><br>Web app development</li>
+                        <li><span>App development</span><br>building android/ios apps</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Fresher</span><br>designing web/app interfaces</li>
+                        <li><span>Fresher</span><br>Web app development</li>
+                        <li><span>Fresher</span><br>building android/ios apps</li>
+                    </ul>
+
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2026</span><br>MCA from JSS Academy of Technical Education Noida</li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!----------services-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+               <h2>Web Design</h2>
+               <p>Custom website development focusing on responsive design, fast loading speeds, and clean code. I build interactive user interfaces using HTML, CSS, JavaScript, and React to ensure a seamless experience across all devices.</p>
+               <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+               <h2>UI/UX Design</h2>
+               <p>Designing intuitive and aesthetically pleasing digital interfaces. I focus on user behavior to create wireframes and high-fidelity prototypes that are not only beautiful but also easy to navigate and highly functional.</p>
+               <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+               <h2>App Design</h2>
+               <p>Crafting modern mobile application designs with a focus on user-centric layouts. I specialize in creating sleek, high-performance app interfaces for both Android and iOS that prioritize usability and brand identity.</p>
+               <a href="#">learn more</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-------------------portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpeg">
+                <div class="layer">
+                    <h3>finance pro website</h3>
+                    <p>Finance Dashboard UI
+
+Objective
+
+To evaluate your understanding of frontend development by building a clean and interactive finance dashboard interface.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpeg">
+                <div class="layer">
+                    <h3>AI NoteBook creator</h3>
+                    <p></p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+
+                </div>
+
+            </div>
+            
+
+        </div>
+        <a href="#" class="btn">see more</a>
+
+    </div>
+    <!--------------contact---------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>mauryaritesh207@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>9305940933</p>
+                    <div class="social-icons">        
+                        
+                        <a href="https://www.facebook.com/share/1Fjy8Vi4qw/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=lvqfhti"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ritesh-maurya-298601313"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/RiteshMauryaResume.pdf" download class="btn btn2">Download cv</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button  type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+
+    }
+     function closemenu(){
+        sidemeu.style.right = "-200px";
+        
+    }
+</script>
+<script>
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyBBxixWhYrezzbATDDzKvmlLPK_7--BfY6dEsXipgSMnfXAHWpDp0yc3GDa3Hou468DA/exec'
+
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+
+e.preventDefault()
+
+fetch(scriptURL, { method: 'POST', body: new FormData (form)})
+
+.then(response => {
+    msg.innerHTML = "Message sent successfully"
+    setTimeout(function(){
+        msg.innerHTML = ""
+    },5000)
+    form.reset()
+})
+
+.catch(error => console.error('Error!', error.message))
+
+})
+
+</script>
+    
+</body>
+</html>
